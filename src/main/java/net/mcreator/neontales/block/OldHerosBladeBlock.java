@@ -47,7 +47,7 @@ public class OldHerosBladeBlock extends Block {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(6, 2, 0, 8, 14, 16);
+		return box(6, 0, 7, 10, 12, 8);
 	}
 
 	@Override
