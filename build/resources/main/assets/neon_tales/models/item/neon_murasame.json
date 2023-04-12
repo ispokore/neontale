@@ -1,0 +1,7 @@
+{
+  "parent": "neon_tales:custom/model",
+  "textures": {
+    "0": "neon_tales:blocks/nmrsmtexture",
+    "particle": "neon_tales:items/nmrsmtexture"
+  }
+}

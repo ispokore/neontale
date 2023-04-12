@@ -1,9 +1,109 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "NeonMurasame",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_murasame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/neontales/item/NeonMurasameItem.java",
+          "src/main/resources/assets/neon_tales/models/item/neon_murasame.json"
+        ]
+      }
+    },
+    {
+      "name": "Murasametickupdate",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murasametickupdate",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/neontales/procedures/MurasametickupdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OldHerosBladeItem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_heros_blade_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/neon_tales/models/item/old_heros_blade_item.json",
+          "src/main/java/net/mcreator/neontales/item/OldHerosBladeItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "OldHerosBladeOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_heros_blade_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/neontales/procedures/OldHerosBladeOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OldHerosBlade",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_heros_blade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/neon_tales/models/item/old_heros_blade.json",
+          "src/main/java/net/mcreator/neontales/block/OldHerosBladeBlock.java",
+          "src/main/resources/assets/neon_tales/blockstates/old_heros_blade.json",
+          "src/main/resources/assets/neon_tales/models/block/old_heros_blade.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.neon_tales.old_heros_blade": "Old Hero\u0027s Blade",
+      "item.neon_tales.old_heros_blade_item": "Old Hero\u0027s Blade",
+      "item.neon_tales.neon_murasame": "Neon Murasame"
+    }
   },
   "foldersRoot": {
     "name": "~",

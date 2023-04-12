@@ -1,0 +1,9 @@
+{
+  "parent": "neon_tales:custom/ohs",
+  "textures": {
+    "all": "neon_tales:blocks/ohstexture",
+    "particle": "neon_tales:blocks/ohstexture",
+    "0": "neon_tales:blocks/ohstexture"
+  },
+  "render_type": "solid"
+}

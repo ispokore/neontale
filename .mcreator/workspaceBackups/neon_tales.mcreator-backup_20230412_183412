@@ -1,0 +1,46 @@
+{
+  "mod_elements": [
+    {
+      "name": "NeonMurasame",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_murasame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/neontales/item/NeonMurasameItem.java",
+          "src/main/resources/assets/neon_tales/models/item/neon_murasame.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.neon_tales.neon_murasame": "Neon Murasame"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "neon_tales",
+    "modName": "neon tales",
+    "version": "1.0.0",
+    "author": "isaac, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.neontales",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

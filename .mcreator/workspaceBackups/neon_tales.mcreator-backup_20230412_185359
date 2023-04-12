@@ -1,0 +1,81 @@
+{
+  "mod_elements": [
+    {
+      "name": "NeonMurasame",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neon_murasame",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/neontales/item/NeonMurasameItem.java",
+          "src/main/resources/assets/neon_tales/models/item/neon_murasame.json"
+        ]
+      }
+    },
+    {
+      "name": "Murasametickupdate",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "murasametickupdate",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/net/mcreator/neontales/procedures/MurasametickupdateProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OldHerosBladeItem",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "old_heros_blade_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/neon_tales/models/item/old_heros_blade_item.json",
+          "src/main/java/net/mcreator/neontales/item/OldHerosBladeItemItem.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.neon_tales.old_heros_blade_item": "Old Hero\u0027s Blade",
+      "item.neon_tales.neon_murasame": "Neon Murasame"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "neon_tales",
+    "modName": "neon tales",
+    "version": "1.0.0",
+    "author": "isaac, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.neontales",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

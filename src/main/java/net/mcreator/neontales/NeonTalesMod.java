@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.neontales.init.NeonTalesModItems;
+import net.mcreator.neontales.init.NeonTalesModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -47,6 +50,9 @@ public class NeonTalesMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		NeonTalesModBlocks.REGISTRY.register(bus);
+		NeonTalesModItems.REGISTRY.register(bus);
 
 	}
 
